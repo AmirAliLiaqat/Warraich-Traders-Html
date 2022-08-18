@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard – Housing & Homeless Shelter</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonst Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <!-- Header Start -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <div class="top-site-bar">
+                            <ul class="list-unstyled m-0 p-0">
+                                <li><i class="fas fa-phone site-ancer"></i>&nbsp;&nbsp; 0300-4516820</li>
+                                <li><i class="fas fa-clock site-ancer"></i>&nbsp;&nbsp; MON - SUN: 09 AM - 09 PM</li>
+                                <li><a href="" class="site-ancer"><i class="fas fa-envelope"></i>&nbsp;&nbsp; ch_imtiazali@yahoo.com</a></li>
+                            </ul>
+                        </div><!--top-site-bar-->
+                    </div><!--col-xl-8-->
+                    <div class="col-xl-4 d-flex justify-content-end">
+                        <div class="top-site-bar">
+                            <ul class="list-unstyled m-0 p-0">
+                                <li><a href="" class="site-ancer d-none"><i class="fas fa-power-off"></i></a></li>
+                                <li><a href="" class="site-ancer"><i class="fab fa-1.5x fa-twitter"></i></a></li>
+                                <li><a href="" class="site-ancer"><i class="fas fa-sign-in-alt"></i></a></li>
+                            </ul>
+                        </div><!--top-site-bar-->
+                        <div class="clearboth"></div><!--clearboth-->
+                    </div><!--col-xl-4-->
+                </div><!--row-->
+            </div><!--container-->
+       </div><!--header-top-->
+       <hr class="my-2">
+
+        <div class="header-main">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand site-ancer" href="../index.html"><img src="../images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links" aria-current="page" href="../about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links" aria-current="page" href="../house-price.html">House Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links" aria-current="page" href="../contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <a href="../login.html" class="site-ancer text-uppercase">Login</a>
+                    </div><!--collapse-->
+                    <div class="clearboth"></div><!--clearboth-->
+                </div><!--container-->
+            </nav>
+       </div><!--header-main-->
+    </header>
+    <hr class="my-0">
+    <!-- Header End -->
+
+    <!-- Section Start -->
+    <section>
+        <div class="container-fluid">
+            <div class="row mx-2">
+                <div class="col-lg-2 col-sm-2 p-0" style="background:#475153;">
+                    <div class="dashboard_navbar py-3">
+                        <nav>
+                            <ul class="list-unstyled m-0 p-0 dashboard_main_ul">
+                                <li class="dashboard_main_li_1 py-3">
+                                    <span href="" class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-home"></i>&nbsp; House System &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_1">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="housing-dashboard.html" class="mx-4 text-decoration-none text-white">Dashboard</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="search-borrower.html" class="mx-4 text-decoration-none text-white">Search Borrower</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="add-edit-borrower.html" class="mx-4 text-decoration-none text-white">Add / Edit <span class="px-4">Borrower</span></a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="view-borrower.html" class="mx-4 text-decoration-none text-white">View Borrower</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="new-invoice.html" class="mx-4 text-decoration-none text-white">New Invoice</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="search-invoices.html" class="mx-4 text-decoration-none text-white">Search Invoice</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="house-plans.html" class="mx-4 text-decoration-none text-white">House Plans</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_2 py-3">
+                                    <span href="" class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-dollar-sign"></i>&nbsp; Expenses &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_2">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="search-expenses.html"  class="mx-4 text-decoration-none text-white">Search Expenses</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="add-edit-expenses.html"  class="mx-4 text-decoration-none text-white">Add / Edit <span class="px-4">Expenses</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="view-expenses.html"  class="mx-4 text-decoration-none text-white">View Expenses</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="search-ca-expenses.html"  class="mx-4 text-decoration-none text-white">Add / Edit CA <span class="px-4">Expenses</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="add-edit-ca-expenses.html"  class="mx-4 text-decoration-none text-white">Search CA <span class="px-4">Expenses</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="expenses-categories.html"  class="mx-4 text-decoration-none text-white">Search Catagories</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_3 py-3">
+                                    <span href=""  class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-shopping-cart"></i>&nbsp; Store &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_3">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="search-products.html"  class="mx-4 text-decoration-none text-white">Search</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="add-edit-products.html"  class="mx-4 text-decoration-none text-white">Add / Edit <span class="px-4">Product</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="search-orders.html"  class="mx-4 text-decoration-none text-white">Search Orders</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_4 py-3">
+                                    <span href=""  class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-cog"></i>&nbsp; Setting &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_4">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="formulas.html"  class="mx-4 text-decoration-none text-white">Formulas</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="edit-house-agreement.html"  class="mx-4 text-decoration-none text-white">Edit House <span class="px-4">Agreement</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="general-settings.html"  class="mx-4 text-decoration-none text-white">General</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="all-banners.html"  class="mx-4 text-decoration-none text-white">All Banners</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="print-invoices.html"  class="mx-4 text-decoration-none text-white">Print Invoice</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="taxonomies.html"  class="mx-4 text-decoration-none text-white">Taxnomies</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_5 py-3">
+                                    <span href=""  class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-user"></i>&nbsp; Users &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_5">  
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="your-profile.html"  class="mx-4 text-decoration-none text-white">Your Profile</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href="update-password.html"  class="mx-4 text-decoration-none text-white">Update Password</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!--col-lg-2-->
+                <div class="col-lg-10 col-sm-5">
+                    <form action="" method="get" class="bbwp_admin_form mx-4" autocomplete="off">
+                        <h2 class="my-4">Dashboard
+                            <a href="#" class="btn btn-outline-primary page-title-action print_button mx-3" data-element="dashboard-print-target">Print</a>
+                            <span class="heading_items_per_page" style="display: inline-block; float: right; font-size: 14px;">Items Per Page 
+                                <input type="number" name="items_per_page" value="20" style="width:100px;" disabled="disabled">
+                            </span>
+                        </h2>
+                        <div class="clearboth"></div><!--clearboth-->
+                        <div class="dashboard-print-target">
+                            <div class="print-container-dashboard print-container">
+                                <!-- <h3 class="print_only">Date: February 04, 2022 09:44 PM</h3>-->
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <!-- Summary of Today -->
+                                        <div class="card text-white bg-success mb-3">
+                                                <div class="card-header display-7">
+                                                Summary of Today
+                                                    <a class="collapsed" data-toggle="collapse" href="#today_summary" aria-expanded="true" aria-controls="today_summary">
+                                                        <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                        <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </div>
+                                                <div class="card-body">
+                                                    <p><strong>Amount Received:</strong> &nbsp; Rs. 0</p>
+                                                    <div id="today_summary" class="collapse">
+                                                        <p><strong>Expenses:</strong> &nbsp; Rs. 0</p>
+                                                        <p class="mb-0"><strong>P/LS:</strong> &nbsp; Rs. 0</p>
+                                                        <hr>
+                                                        <p><strong>Cash:</strong> &nbsp; Rs. 0</p>
+                                                        <p><strong>Bank:</strong> &nbsp; Rs. 0</p>
+                                                        <p class="mb-0"><strong>Others:</strong> &nbsp; Rs. 0</p>
+                                                        <hr>
+                                                        <p class="mb-0"><strong>Return:</strong> &nbsp; Rs. 0</p>
+                                                        <hr>
+                                                        <p><strong>Converted:</strong> &nbsp; Rs. 0</p>
+                                                        <p class="mb-0"><strong>Formal Converted Return:</strong> &nbsp; Rs. 0</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div><!-- card-->
+
+                                            <!-- Total SUMMMARY -->
+                                            <div class="card text-white bg-success mb-3">
+                                                <div class="card-header display-7">Total Summary
+                                                    <a class="collapsed" data-toggle="collapse" href="#total_summary" aria-expanded="true" aria-controls="total_summary">
+                                                        <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                        <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </div>
+                                                <div class="card-body">
+                                                    <p><strong>Amount Received:</strong> &nbsp; Rs. 221,392,960</p>
+                                                    <div id="total_summary" class="collapse">
+                                                        <p><strong>Expenses:</strong> &nbsp; Rs. 215,316,693</p>
+                                                        <p class="mb-0"><strong>P/LS:</strong> &nbsp; Rs. 6,076,267</p>
+                                                        <hr>
+                                                        <p><strong>Down payment:</strong> &nbsp; Rs. 137,739,450</p>
+                                                        <p><strong>Front:</strong> &nbsp; Rs. 0</p>
+                                                        <p><strong>Monthly:</strong> &nbsp; Rs. 77,943,110</p>
+                                                        <p><strong>Possesion:</strong> &nbsp; Rs. 4,342,300</p>
+                                                        <p><strong>Registery:</strong> &nbsp; Rs. 150,000</p>
+                                                        <p><strong>Yearly:</strong> &nbsp; Rs. 1,157,000</p>
+                                                        <p class="mb-0"><strong>Other:</strong> &nbsp; Rs. 61,100</p>
+                                                            
+                                                        
+                                                                                                            </div><!-- total summary-->
+                                                </div>
+                                            </div><!-- card-->
+
+                                            <!-- Total Houses SUMMMARY -->
+                                            <div class="card text-white bg-success mb-3">
+                                                <div class="card-header display-7">Total Houses Summary
+                                                    <a class="collapsed" data-toggle="collapse" href="#total_houses_summary" aria-expanded="true" aria-controls="total_houses_summary">
+                                                        <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                        <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                    </a>
+                                                </div>
+                                                <div class="card-body">
+                                                    <p class="mb-0"><strong>Houses:</strong> &nbsp; 950</p>
+                                                    <div id="total_houses_summary" class="collapse">
+                                                                                                            <hr>
+                                                        <p><strong>1 Marla:</strong> &nbsp;318</p>
+                                                        <p><strong>1.5 Marla:</strong> &nbsp;185</p>
+                                                        <p><strong>2 Marla:</strong> &nbsp;418</p>
+                                                        <p><strong>2.5 Marla:</strong> &nbsp;6</p>
+                                                        <p class="mb-0"><strong>3 Marla:</strong> &nbsp;21</p>
+                                                        
+                                                                                                        <hr>
+                                                    <p><strong>Total Marlay:</strong> &nbsp;1,518</p>
+                                                    <p><strong>Available Marlay:</strong> &nbsp;521.9</p>
+                                                    <p class="mb-0"><strong>Balance:</strong> &nbsp;-996 </p>
+                                                    </div><!-- total Houses summary-->
+                                                </div>
+                                            </div><!-- card-->
+
+                                    </div><!-- col-md-4-->
+                                    <div class="col-md-4">
+                                        <!-- CA Expenses Summary-->
+                                        <div class="card text-white bg-info mb-3">
+                                            <div class="card-header display-7">CA Expenses Summary
+                                                <a class="collapsed" data-toggle="collapse" href="#ca_expenses_summary" aria-expanded="true" aria-controls="ca_expenses_summary">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="mb-0"><strong>Balance:</strong> &nbsp; Rs. -335,124</p>
+                                                <div id="ca_expenses_summary" class="collapse">
+                                                    <hr>
+                                                    <p><strong>Amount Given:</strong> &nbsp; Rs. 76,754,952</p>
+                                                    <p class="mb-0"><strong>Amount Spent:</strong> &nbsp; Rs. 77,090,076</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- card-->
+
+                                        <!-- Summary of Payment Source -->
+                                        <div class="card text-white bg-primary mb-3">
+                                            <div class="card-header display-7">Payment Source
+                                                <a class="collapsed" data-toggle="collapse" href="#payment_source_summary" aria-expanded="true" aria-controls="payment_source_summary">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="mb-0"><strong>Amount Received:</strong> &nbsp; Rs. 221,392,960</p>
+                                                <div id="payment_source_summary" class="collapse">
+                                                    <hr>
+                                                    <p><strong>Cash:</strong> &nbsp; Rs. 219,047,460</p>
+                                                    <p><strong>Bank:</strong> &nbsp; Rs. 2,233,900</p>
+                                                    <p class="mb-0"><strong>Others:</strong> &nbsp; Rs. 111,600</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- card-->
+
+                                        <!-- Return Sumary-->
+                                        <div class="card text-white bg-danger mb-3">
+                                            <div class="card-header display-7">Return Summary
+                                                <a class="collapsed" data-toggle="collapse" href="#return_summary" aria-expanded="true" aria-controls="return_summary">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="mb-0"><strong>Balance:</strong> &nbsp; Rs. 25,500</p>
+                                                <div id="return_summary" class="collapse">
+                                                    <hr>
+                                                    <p><strong>Should Return:</strong> &nbsp; Rs. 41,958,302</p>
+                                                    <p class="mb-0"><strong>Amount Returned:</strong> &nbsp; Rs. 41,932,802</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- card-->
+
+                                    </div><!-- col-md-4-->
+                                    <div class="col-md-4">
+                                        <!-- Summary of Current Month-->
+                                        <div class="card text-white bg-success mb-3">
+                                            <div class="card-header display-7">Summary of February, 2022												<a class="collapsed" data-toggle="collapse" href="#this_month_summary" aria-expanded="true" aria-controls="this_month_summary">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p><strong>Amount Received:</strong> &nbsp; Rs. 0</p>
+                                                <div id="this_month_summary" class="collapse">
+                                                    <p><strong>Expenses:</strong> &nbsp; Rs. 0</p>
+                                                    <p class="mb-0"><strong>P/LS:</strong> &nbsp; Rs. 0</p>
+                                                    <hr>
+                                                    <p><strong>Cash:</strong> &nbsp; Rs. 0</p>
+                                                    <p><strong>Bank:</strong> &nbsp; Rs. 0</p>
+                                                    <p class="mb-0"><strong>Others:</strong> &nbsp; Rs. 0</p>
+                                                    <hr>
+                                                    <p class="mb-0"><strong>Return:</strong> &nbsp; Rs. 0</p>
+                                                    <hr>
+                                                    <p><strong>Converted:</strong> &nbsp; Rs. 0</p>
+                                                    <p class="mb-0"><strong>Formal Converted Return:</strong> &nbsp; Rs. 0</p>
+                                                </div>
+                                            </div>
+                                        </div><!-- card-->
+
+                                        <!-- Project Expenses -->
+                                        <div class="card text-white bg-info mb-3">
+                                            <div class="card-header display-7">Project Expenses
+                                                <a class="collapsed" data-toggle="collapse" href="#all_project_expenses" aria-expanded="true" aria-controls="all_project_expenses">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="mb-0"><strong>Total:</strong> &nbsp; Rs. 193,581,055</p>
+                                                <div id="all_project_expenses" class="collapse">
+                                                    <hr>
+                                                    <p><strong>A Block:</strong> &nbsp; Rs. 5,404,370</p>
+                                                    <p><strong>B Block:</strong> &nbsp; Rs. 6,428,780</p>
+                                                    <p><strong>C Block:</strong> &nbsp; Rs. 70,004,451</p>
+                                                    <p><strong>D Block:</strong> &nbsp; Rs. 87,098,794</p>
+                                                    <p><strong>E Block:</strong> &nbsp; Rs. 17,509,710</p>
+                                                    <p><strong>F Block:</strong> &nbsp; Rs. 7,134,950</p>
+                                                    <p class="mb-0"><strong>G Block:</strong> &nbsp; Rs. 0</p>
+                                                </div>												
+                                            </div>
+                                        </div><!-- card-->
+
+                                        <!-- Users Last Login Stats -->
+                                        <div class="card mb-3">
+                                            <div class="card-header display-7">Users Last Login Stats
+                                                <a class="collapsed" data-toggle="collapse" href="#user_login_stats" aria-expanded="true" aria-controls="user_login_stats">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body m-0 p-0">
+                                                <div id="user_login_stats" class="collapse">
+                                                    <table class="table">
+                                                    <tbody><tr>
+                                                        <td>Name</td>
+                                                        <td>Code</td>
+                                                        <td>Time</td>
+                                                    </tr>
+                                                
+                                                    <tr><td class="text-capitalize">Amir Liaqat</td><td>6728</td><td>Feb-03-2022 | 05:10 PM</td></tr><tr><td class="text-capitalize">Hafiz Bashir</td><td>1023</td><td>Jul-06-2020 | 06:06 PM</td></tr><tr><td class="text-capitalize">ch imtiaz</td><td>1210</td><td>Aug-23-2020 | 09:03 AM</td></tr><tr><td class="text-capitalize">Jamil</td><td>8162</td><td>Sep-01-2020 | 04:38 PM</td></tr><tr><td class="text-capitalize">MALIK Qaisar</td><td>7805</td><td>Sep-03-2020 | 07:35 PM</td></tr><tr><td class="text-capitalize">Sadam</td><td>3118</td><td>Aug-22-2020 | 10:38 AM</td></tr>													</tbody></table>
+                                                </div>
+                                            </div><!-- card-body-->
+                                        </div><!-- card-->
+
+                                    </div><!-- col-md-4-->
+                                </div><!-- row -->
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <!-- Summary of A Block -->
+                                        <div class="card text-white bg-primary mb-3">
+                                        <div class="card-header display-7">Summary of A Block
+                                        <a class="collapsed" data-toggle="collapse" href="#ablock_summary" aria-expanded="true" aria-controls="ablock_summary">
+                                            <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                            <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="mb-0"><strong>P/LS:</strong> &nbsp; Rs. 1,195,630</p>
+                                        <div id="ablock_summary" class="collapse">
+                                            <hr>
+                                            <p><strong>Total Marlay:</strong> 8</p>
+                                            <p><strong>Total Houses:</strong> 8</p>
+                                            <p><strong>Total Worth:</strong> &nbsp; Rs. 6,600,000</p>
+                                            <p class="mb-0"><strong>Total Expense:</strong> &nbsp; Rs. 5,404,370</p>
+                                        </div>
+                                    </div><!-- card-body-->
+                                </div><!-- card -->
+                                    </div><!-- col-md-4-->
+                                    <div class="col-md-4">
+                                        <!-- Summary of B Block -->
+                                                                                <div class="card text-white bg-primary mb-3">
+                                            <div class="card-header display-7">Summary of B Block
+                                                <a class="collapsed" data-toggle="collapse" href="#bblock_summary" aria-expanded="true" aria-controls="bblock_summary">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="mb-0"><strong>P/LS:</strong> &nbsp; Rs. 2,274,020</p>
+                                                <div id="bblock_summary" class="collapse">
+                                                    <hr>
+                                                    <p><strong>Total Marlay:</strong> 10</p>
+                                                    <p><strong>Total Houses:</strong> 10</p>
+                                                    <p><strong>Total Worth:</strong> &nbsp; Rs. 8,702,800</p>
+                                                    <p class="mb-0"><strong>Total Expense:</strong> &nbsp; Rs. 6,428,780</p>
+                                                </div>
+                                            </div><!-- card-body-->
+                                        </div><!-- card -->
+                                    </div><!-- col-md-4-->
+                                    <div class="col-md-4">
+                                        <!-- Summary of c Block -->
+                                                                                <div class="card text-white bg-primary mb-3">
+                                            <div class="card-header display-7">Summary of C Block
+                                                <a class="collapsed" data-toggle="collapse" href="#cblock_summary" aria-expanded="true" aria-controls="cblock_summary">
+                                                    <span class="float-right"><i class="fa fa-minus" aria-hidden="true"></i>
+                                                    <i class="fa fa-plus" aria-hidden="true"></i></span>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="mb-0"><strong>P/LS:</strong> &nbsp; Rs. -774,251</p>
+                                                <div id="cblock_summary" class="collapse">
+                                                    <hr>
+                                                    <p><strong>Total Marlay:</strong> 74</p>
+                                                    <p><strong>Total Houses:</strong> 48</p>
+                                                    <p><strong>Total Worth:</strong> &nbsp; Rs. 69,230,200</p>
+                                                    <p class="mb-0"><strong>Total Expense:</strong> &nbsp; Rs. 70,004,451</p>
+                                                </div>
+                                            </div><!-- card-body-->
+                                        </div><!-- card -->
+                                    </div><!-- col-md-4-->
+                                </div><!-- row -->
+
+                            </div><!--print-container-dashboard-->
+                        </div><!-- dashboard-->
+                        <h2 class="hndle my-4">
+                            <span>Date Interval Report</span>
+                        </h2>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <label for="year" class=" fw-bolder">Start Date:</label>
+                            </div>
+                            <div class="col-lg-4 form-group">
+                                <input type="date" name="start_date" class="form-control" value="" id="dp1643993091331">
+                            </div>
+                            <div class="col-lg-2">
+                                <label for="year" class=" fw-bolder">End Date:</label>
+                            </div>
+                            <div class="col-lg-4 form-group">
+                                <input type="date" name="end_date" class="form-control" value="" id="dp1643993091332">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Submit" class="btn site_btn text-white">
+                            </div>
+                        </div>
+                        <div class="dashboard-interval-print">
+                            <div class="dashboard-interval-print-container print-container">									
+                                <div class="all_invoices_data">
+                            </div><!-- all_invoices_data -->
+                            </div><!-- print container -->
+                        </div><!-- dashboard-interval-print -->
+                    </form>
+                </div><!--col-lg-10-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+    <!-- Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="mb-3">
+                        <img src="../images/logo.png" style="width: 85px; height: 75px;">
+                    </h3>
+                    <p>
+                        We have completed 5 projects, each project consists of around 50 houses.
+                    </p>
+                    <p>
+                        We’re a challenge driven team that loves to build meaningful living spaces with people
+                        that share the same passion and values as we have.
+                    </p>
+                </div><!--col-md-4-->
+                <div class="col-md-4">
+                    <h3 class="text-white mb-5">Contact Us</h3>
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>Near 5 No.Bus Stop, Main Ferozpur Road, Kahna Nau, Lahore, Pakistan</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-phone my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>0300-4516820</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>ch_imtiazali@yahoo.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-clock my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>Mon - Sun : 09 AM - 09 PM</p>
+                    </div>
+                </div><!--col-md-4-->
+                <div class="col-md-4">
+                    <h3 class="text-white mb-5">Recent Photos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""><img src="../images/gallery1.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery2.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery3.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery4.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery5.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery6.jpg"></a></li>
+                    </ul>
+                </div><!--col-md-4-->
+            </div><!--row-->
+            <hr class="text-secondary">
+            <div class="col-12 d-flex justify-content-center copyright_text">
+                <p>
+                    © 2022 Warraich Traders. All Rights Reserved. 
+                    <br>
+                    Designed and Developed by 
+                    <a href="https://bytebunch.com" target="_blank" class="text-decoration-none text-white">ByteBunch</a>
+                </p>
+            </div>
+        </div><!--container-->
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery Js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom Js -->
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

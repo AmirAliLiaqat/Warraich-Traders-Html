@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Borrower – Housing & Homeless Shelter</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonst Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <!-- Header Start -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <div class="top-site-bar">
+                            <ul class="list-unstyled m-0 p-0">
+                                <li><i class="fas fa-phone site-ancer"></i>&nbsp;&nbsp; 0300-4516820</li>
+                                <li><i class="fas fa-clock site-ancer"></i>&nbsp;&nbsp; MON - SUN: 09 AM - 09 PM</li>
+                                <li><a href="" class="site-ancer"><i class="fas fa-envelope"></i>&nbsp;&nbsp; ch_imtiazali@yahoo.com</a></li>
+                            </ul>
+                        </div><!--top-site-bar-->
+                    </div><!--col-xl-8-->
+                    <div class="col-xl-4 d-flex justify-content-end">
+                        <div class="top-site-bar">
+                            <ul class="list-unstyled m-0 p-0">
+                                <li><a href="" class="site-ancer d-none"><i class="fas fa-power-off"></i></a></li>
+                                <li><a href="" class="site-ancer"><i class="fab fa-1.5x fa-twitter"></i></a></li>
+                                <li><a href="" class="site-ancer"><i class="fas fa-sign-in-alt"></i></a></li>
+                            </ul>
+                        </div><!--top-site-bar-->
+                        <div class="clearboth"></div><!--clearboth-->
+                    </div><!--col-xl-4-->
+                </div><!--row-->
+            </div><!--container-->
+       </div><!--header-top-->
+       <hr class="my-2">
+
+        <div class="header-main">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand site-ancer" href="../index.html"><img src="../images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links" aria-current="page" href="../about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links" aria-current="page" href="../house-price.html">House Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link site_nav_links" aria-current="page" href="../contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <a href="../login.html" class="site-ancer text-uppercase">Login</a>
+                    </div><!--collapse-->
+                    <div class="clearboth"></div><!--clearboth-->
+                </div><!--container-->
+            </nav>
+       </div><!--header-main-->
+    </header>
+    <hr class="my-0">
+    <!-- Header End -->
+
+    <!-- Section Start -->
+    <section>
+        <div class="container-fluid">
+            <div class="row mx-2">
+                <div class="col-lg-2 col-sm-2 p-0" style="background:#475153;">
+                    <div class="dashboard_navbar py-3">
+                        <nav>
+                            <ul class="list-unstyled m-0 p-0 dashboard_main_ul">
+                                <li class="dashboard_main_li_1 py-3">
+                                    <span href="" class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-home"></i>&nbsp; House System &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_1">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="housing-dashboard.html" class="mx-4 text-decoration-none text-white">Dashboard</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="search-borrower.html" class="mx-4 text-decoration-none text-white">Search Borrower</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="add-edit-borrower.html" class="mx-4 text-decoration-none text-white">Add / Edit <span class="px-4">Borrower</span></a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="view-borrower.html" class="mx-4 text-decoration-none text-white">View Borrower</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="new-invoice.html" class="mx-4 text-decoration-none text-white">New Invoice</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="search-invoices.html" class="mx-4 text-decoration-none text-white">Search Invoice</a></li>
+                                            <li class="px-2 py-2 my-1 dashboard_links"><a href="house-plans.html" class="mx-4 text-decoration-none text-white">House Plans</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_2 py-3">
+                                    <span href="" class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-dollar-sign"></i>&nbsp; Expenses &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_2">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Search Expenses</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Add / Edit <span class="px-4">Expenses</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">View Expenses</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Add / Edit CA <span class="px-4">Expenses</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Search CA <span class="px-4">Expenses</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Search Catagories</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_3 py-3">
+                                    <span href=""  class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-shopping-cart"></i>&nbsp; Store &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_3">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Search</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Add / Edit <span class="px-4">Product</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Search Orders</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_4 py-3">
+                                    <span href=""  class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-cog"></i>&nbsp; Setting &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_4">
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Formulas</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Edit House <span class="px-4">Agreement</span></a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">General</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">All Banners</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Print Invoice</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Taxnomies</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                                <li class="dashboard_main_li_5 py-3">
+                                    <span href=""  class="px-4 py-2 dashboard_links">
+                                        <i class="fas fa-user"></i>&nbsp; Users &nbsp;<i class="fas fa-sort-down"></i>
+                                    </span>
+                                    <div class="dashboard_sub_navbar_5">  
+                                        <ul class="list-unstyled dashboard_sub_ul">
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Your Profile</a></li>
+                                            <li class="px-3 py-2 my-1 dashboard_links"><a href=""  class="mx-4 text-decoration-none text-white">Update Password</a></li>
+                                        </ul>
+                                    </div><!--dashboard_links-->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!--col-lg-2-->
+                <div class="col-lg-10 col-sm-5">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-6">
+                            <form action="" method="" class="mx-3">
+                                <div class="section_top w-100 d-flex justify-content-center align-item-center">
+                                    <h2 class="m-4 d-inline-block">
+                                        <span>Search Borrower</span>
+                                    </h2>
+                                    <button class="btn site_btn text-white my-4 mx-3">Print</button>
+                                    <button class="btn btn-primary my-4 toggle_btn">Toggle Filters</button>
+                                    <div class="dropdown m-auto">
+                                        <button class="btn btn-primary dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Toggle Columns
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <input type="text" name="search" class="form-control px-2" id="search" value="">
+                                            <li><a class="dropdown-item" href="#">Photo</a></li>
+                                            <li><a class="dropdown-item" href="#">Contact#</a></li>
+                                            <li><a class="dropdown-item" href="#">Name</a></li>
+                                            <li><a class="dropdown-item" href="#">Last Name</a></li>
+                                            <li><a class="dropdown-item" href="#">File#</a></li>
+                                            <li><a class="dropdown-item" href="#">House#</a></li>
+                                            <li><a class="dropdown-item" href="#">Date</a></li>
+                                            <li><a class="dropdown-item" href="#">File</a></li>
+                                            <li><a class="dropdown-item" href="#">Registry</a></li>
+                                            <li><a class="dropdown-item" href="#">Updated By</a></li>
+                                            <li><a class="dropdown-item" href="#">Size</a></li>
+                                            <li><a class="dropdown-item" href="#">Recieved</a></li>
+                                            <li><a class="dropdown-item" href="#">Balance</a></li>
+                                            <li><a class="dropdown-item" href="#">Others</a></li>
+                                            <li><a class="dropdown-item" href="#">Invoice</a></li>
+                                        </ul>
+                                    </div><!--dropdown-->
+                                    <div class="m-auto">
+                                        <span>
+                                            Items Per Page 
+                                            <input type="number" name="item_number" value="20" disabled="disabled">
+                                        </span>
+                                    </div><!--m-auto-->
+                                </div><!--section_top-->
+                                <div class="row bg-gray pt-3">
+                                    <div class="col-lg-3 form-group">
+                                        <label for="file_name" class="form-label fw-bolder">File#</label>
+                                        <input type="text" class="form-control" name="file_name" id="file_name" value="">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="house_name" class="form-label fw-bolder">House#</label>
+                                        <input type="text" class="form-control" name="house_name" id="house_name" value="">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="b_name" class="form-label fw-bolder">Name</label>
+                                        <input type="text" class="form-control" name="b_name" id="b_name" value="">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="phone_number" class="form-label fw-bolder">Contact#</label>
+                                        <input type="text" class="form-control" name="phone_number" id="phone_number" value="">
+                                    </div><!--col-lg-3-->
+                                </div><!--row-->
+                                <div class="row bg-gray pb-3 toggle_menu">
+                                    <div class="col-lg-3 form-group">
+                                        <label for="orderby" class="form-label fw-bolder">Order By</label>
+                                        <select name="orderby" id="orderby" class="form-control">
+                                            <option value="ID">ID</option>
+                                            <option value="contact_number">Contact Number</option>
+                                            <option value="cnic">CNIC</option>
+                                            <option value="borrower_name">Name</option>
+                                            <option value="account_number">File#</option>
+                                            <option value="house_number">House#</option>
+                                            <option value="account_status">Account Status</option>
+                                            <option value="account_stage">Account Stage</option><option value="registery">Registry</option>
+                                            <option value="file">File</option>
+                                            <option value="updated_at">Update Time</option>									
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="order" class="form-label fw-bolder">Order</label>
+                                        <select name="order" id="order" class="form-control">
+                                            <option value="ascending">Ascending</option>
+                                            <option value="descending">Descending</option>							
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="booking_start_date" class="form-label fw-bolder">Booking Start Date</label>
+                                        <input type="date" class="form-control" name="booking_start_date" id="booking_start_date" value="">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="booking_end_date" class="form-label fw-bolder">Booking End Date</label>
+                                        <input type="date" class="form-control" name="booking_end_date" id="booking_end_date" value="">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="account_status" class="form-label fw-bolder">Account Status</label>
+                                        <select name="account_status" id="account_status" class="form-control">
+                                            <option value="all">All</option>
+                                            <option value="open">Open</option>
+                                            <option value="cancel">Cancel</option>
+                                            <option value="close">Close</option>						
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="is_active" class="form-label fw-bolder">Is Active?</label>
+                                        <select name="is_active" id="is_active" class="form-control">
+                                            <option value="" selected>All</option>
+                                            <option value="active">Active</option>
+                                            <option value="in_active">In-Active</option>	
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="search_by" class="form-label fw-bolder">Search By</label>
+                                        <select name="search_by" id="search_by" class="form-control">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="open">Open</option>
+                                            <option value="cancel">Cancel</option>
+                                            <option value="close">Close</option>						
+                                            <option value="close">Close</option>						
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="search" class="form-label fw-bolder">Search</label>
+                                        <input type="text" class="form-control" name="search" id="search" value="">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="house_blocks" class="form-label fw-bolder">Price Block</label>
+                                        <select name="house_blocks" id="house_blocks" class="form-control">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="a">A Block</option>
+                                            <option value="b">B Block</option>
+                                            <option value="c">C Block</option>
+                                            <option value="d">D Block</option>						
+                                            <option value="e">E Block</option>						
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="house_size" class="form-label fw-bolder">House Size</label>
+                                        <select name="house_size" id="house_size" class="form-control">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="1">1 Marla</option>	
+                                            <option value="1.5">1.5 Marla</option>	
+                                            <option value="2">2 Marla</option>	
+                                            <option value="2.5">2.5 Marla</option>	
+                                            <option value="3">3 Marla</option>	
+                                            <option value="3.5">3.5 Marla</option>	
+                                            <option value="4">4 Marla</option>	
+                                            <option value="4.5">4.5 Marla</option>	
+                                            <option value="5">5 Marla</option>	
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="account_stage" class="form-label fw-bolder">Account Stage</label>
+                                        <select name="account_stage" id="account_stage" class="form-control">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="booking">Booking</option>
+                                            <option value="possesion">Possesion</option>					
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="is_front" class="form-label fw-bolder">Is Front?</label>
+                                        <select name="is_front" id="is_front" class="form-control">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="front">Front</option>
+                                            <option value="back">Back</option>					
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="house_location" class="form-label fw-bolder">House Location</label>
+                                        <select name="house_location" id="house_location" class="form-control">
+                                            <option value="" selected>-- Select --</option>
+                                            <option value="a">A Block</option>
+                                            <option value="b">B Block</option>					
+                                            <option value="c">C Block</option>
+                                            <option value="d">D Block</option>					
+                                            <option value="e">E Block</option>					
+                                        </select>
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="range_file_number" class="form-label fw-bolder w-100">File Number Range</label>
+                                        <input type="text" class="form-control" name="start_file_number" id="start_file_number" value="0" style="width: 20%; float: left;">
+                                        <input type="range" class="form-range bg-light m-2" id="customRange1" style="width: 40%; float: left;">
+                                        <input type="text" class="form-control" name="end_file_number" id="end_file_number" value="1250" style="width: 30%; float: right;">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="range_house_number" class="form-label fw-bolder w-100">House Number Range</label>
+                                        <input type="text" class="form-control" name="start_house_number" id="start_house_number" value="0" style="width: 20%; float: left;">
+                                        <input type="range" class="form-range bg-light m-2" id="customRange1" style="width: 40%; float: left;">
+                                        <input type="text" class="form-control" name="end_house_number" id="end_house_number" value="1000" style="width: 30%; float: right;">
+                                    </div><!--col-lg-3-->
+                                    <div class="col-lg-3 form-group">
+                                        <label for="" class="d-block form-label fw-bolder">Completed Process</label> 						
+                                        <input type="checkbox" name="bf_registery" id="bf_registery"> &nbsp;
+                                        <label for="bf_registery" style="font-weight:400;">Registry</label>&nbsp;&nbsp;&nbsp;
+                                        <input type="checkbox" name="bf_file" id="bf_file"> &nbsp;<label for="bf_file" style="font-weight:400;">File</label>	
+                                    </div><!--col-lg-3-->
+                                    <div class="clearboth"></div><!--clearboth-->
+                                </div><!--row-->
+                                <div class="row">
+                                    <div class="col-lg-12 bg-gray pb-3">
+                                        <input type="submit" class="btn site_btn text-white" value="Search">
+                                        <a href="" class="btn site_btn text-white mx-3">Reset</a>
+                                    </div><!--col-lg-12-->
+                                </div><!--row-->
+                                <div class="bbwp-pagination pagination mt-5 d-block">
+                                    <span class="page-total mx-1 p-2 border">Page 1 of 48</span>
+                                    <span aria-current="page" class="page-numbers mx-1 p-2 border current">1</span>
+                                    <a class="page-numbers mx-1 p-2 border text-decoration-none" href="">2</a>
+                                    <a class="page-numbers mx-1 p-2 border text-decoration-none" href="">3</a>
+                                    <span class="page-numbers mx-1 p-2 border dots">…</span>
+                                    <a class="page-numbers mx-1 p-2 border text-decoration-none" href="">48</a>
+                                    <a class="next page-numbers mx-1 p-2 border text-decoration-none" href="">Next »</a>
+                                    <span class="pagination_page_no" style="float: right;">Page# 
+                                        <input type="number" name="paged" value="1" style="width:100px;">
+                                    </span>
+                                    <div class="clearboth"></div><!--clearboth-->
+                                </div><!--bbwp-pagination-->
+                                <div class="row mt-3">
+                                    <div class="col-lg-12">
+                                        <p>
+                                            <button class="mb-2 mr-2 btn btn-dark wt-disable-link">Customers <span class="badge badge-pill badge-light">950</span></button>
+                                            <button class="mb-2 mr-2 btn btn-info wt-disable-link column-house_size" style="display: inline-block;">Total Marlay <span class="badge badge-pill badge-light">1,518</span></button>
+                                            <button class="mb-2 mr-2 btn btn-dark wt-disable-link column-amount" style="display: inline-block;">Price <span class="badge badge-pill badge-light">Rs. 1,405,861,300</span></button>
+                                            <button class="mb-2 mr-2 btn btn-info wt-disable-link column-payment_received" style="display: inline-block;">Received <span class="badge badge-pill badge-light">Rs. 221,331,860</span></button>
+                                            <button class="mb-2 mr-2 btn btn-dark wt-disable-link column-balance" style="display: inline-block;">Balance <span class="badge badge-pill badge-light">Rs. 1,184,529,440</span></button>
+                                            <button class="mb-2 mr-2 btn btn-info wt-disable-link column-other" style="display: inline-block;">Others <span class="badge badge-pill badge-light">Rs. 61,100</span></button>
+                                            <button class="mb-2 mr-2 btn btn-dark wt-disable-link column-total_invoices" style="display: inline-block;">Invoices <span class="badge badge-pill badge-light">6,022</span></button>
+                                            <a href="" type="button" class="btn btn-outline-primary" class="mb-2 mr-2 btn btn-outline-primary page-title-action" target="_blank" style="float: right;">Export</a>
+                                        </p>
+                                    </div><!--col-lg-12-->
+                                </div><!--row-->
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover text-center w-100">
+                                        <thead class="bg-dark text-white">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                                <td>Hello</td>
+                                            </tr>
+                                        </tbody>
+                                        <thead class="bg-dark text-white">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div><!--table-responsive-->
+                                <div class="bbwp-pagination pagination my-5 d-block">
+                                    <span class="page-total mx-1 p-2 border">Page 1 of 48</span>
+                                    <span aria-current="page" class="page-numbers mx-1 p-2 border current">1</span>
+                                    <a class="page-numbers mx-1 p-2 border text-decoration-none" href="">2</a>
+                                    <a class="page-numbers mx-1 p-2 border text-decoration-none" href="">3</a>
+                                    <span class="page-numbers mx-1 p-2 border dots">…</span>
+                                    <a class="page-numbers mx-1 p-2 border text-decoration-none" href="">48</a>
+                                    <a class="next page-numbers mx-1 p-2 border text-decoration-none" href="">Next »</a>
+                                    <span class="pagination_page_no" style="float: right;">Page# 
+                                        <input type="number" name="paged" value="1" style="width:100px;">
+                                    </span>
+                                    <div class="clearboth"></div><!--clearboth-->
+                                </div><!--bbwp-pagination-->
+                            </form>
+                        </div><!--col-lg-12-->
+                    </div><!--row-->
+                </div><!--col-lg-10-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+    <!-- Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="mb-3">
+                        <img src="../images/logo.png" style="width: 85px; height: 75px;">
+                    </h3>
+                    <p>
+                        We have completed 5 projects, each project consists of around 50 houses.
+                    </p>
+                    <p>
+                        We’re a challenge driven team that loves to build meaningful living spaces with people
+                        that share the same passion and values as we have.
+                    </p>
+                </div><!--col-md-4-->
+                <div class="col-md-4">
+                    <h3 class="text-white mb-5">Contact Us</h3>
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>Near 5 No.Bus Stop, Main Ferozpur Road, Kahna Nau, Lahore, Pakistan</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-phone my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>0300-4516820</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>ch_imtiazali@yahoo.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-clock my-1 text-secondary"></i>&nbsp;&nbsp;
+                        <p>Mon - Sun : 09 AM - 09 PM</p>
+                    </div>
+                </div><!--col-md-4-->
+                <div class="col-md-4">
+                    <h3 class="text-white mb-5">Recent Photos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""><img src="../images/gallery1.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery2.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery3.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery4.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery5.jpg"></a></li>
+                        <li><a href=""><img src="../images/gallery6.jpg"></a></li>
+                    </ul>
+                </div><!--col-md-4-->
+            </div><!--row-->
+            <hr class="text-secondary">
+            <div class="col-12 d-flex justify-content-center copyright_text">
+                <p>
+                    © 2022 Warraich Traders. All Rights Reserved. 
+                    <br>
+                    Designed and Developed by 
+                    <a href="https://bytebunch.com" target="_blank" class="text-decoration-none text-white">ByteBunch</a>
+                </p>
+            </div>
+        </div><!--container-->
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery Js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom Js -->
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
