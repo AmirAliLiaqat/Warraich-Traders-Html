@@ -1,0 +1,172 @@
+section{
+    overflow: hidden;
+}
+.clearboth{
+    clear: both;
+}
+p{
+    color: #333;
+}
+.site_nav_links{
+    font-size: 18px;
+    color: #000;
+}
+.site_nav_links:hover{
+    color: #074284;
+}
+.site_h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #333;
+}
+.site_h3{
+    font-size: 24px;
+}
+h2{
+    font-weight: 400;
+}
+h4{
+    font-size: 18px;
+    color: #333;
+}
+.icon-wrap{
+    border: 1px solid #ebeaea;
+    padding: 10px;
+    border-radius: 50%;
+}
+.site_btn{
+    background: #074284;
+}
+.site_btn:hover{
+    background: #475153;
+}
+header .header-top{
+    font-size: 0.8461538462rem;
+}
+header .header-top .top-site-bar ul li{
+    float: left;
+    color: #757575;
+    padding: 8px;
+    padding-bottom: 0;
+}
+.site-ancer{
+    font-size: 0.8461538462rem;
+    text-decoration: none;
+    color: #757575;
+    font-size: 1rem;
+}
+.site-ancer:hover{
+    color: #074284;
+}
+.site-ancer img{
+    width: 85px;
+    height: 75px;
+}
+section .carousel .carousel-inner .carousel-item .carousel-caption h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-shadow: 2px 2px #000 !important;
+}
+.col-4 img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.col-4 h4{
+    font-size: 18px;
+}
+.col-md-3 a img{
+    height: auto;
+    max-width: 100%;
+}
+.col-md-4 ul li{
+    float: left;
+}
+.col-md-4 ul li a img{
+    width: 85px;
+    height: 70px;
+    margin: 5px;
+}
+.our_team_img img{ 
+    width: 100%;
+}
+footer p{
+    color: #8c8989;
+}
+
+/************* Dashboard Css ************/
+.dashboard_links{
+    width: 100%!important;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.dashboard_links:hover{
+    background: #90ee90;
+    color: #000!important;
+}
+.dashboard_links:active{
+    background: #074284;
+    color: #000!important;
+}
+.dashboard_sub_ul li a:hover{
+    color: #000!important;
+}
+.bg-gray{
+    background-color: #dee2e6!important;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.badge-pill{
+    background: #fff;
+    color: #000;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+.badge-pill-2{
+    color: #fff;
+    background-color: #17a2b8;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+/* .toggle_menu{
+    display: none;
+} */
+/* .toggle_btn:onclick .toggle_menu{
+    display: block;
+} */
+.dashboard_sub_navbar_1, .dashboard_sub_navbar_2, .dashboard_sub_navbar_3, .dashboard_sub_navbar_4, .dashboard_sub_navbar_5{
+    display: none;
+}
+span.required{
+    color: #f00;
+}
+.dashboard_btn{
+    color: #074284;
+}
+.dashboard_btn:hover{
+    color: #475153;
+}
+.float-right{
+    float: right;
+}
+.fa-plus, .fa-minus{
+    color: #074284!important;
+}
+.fa-minus{
+    display: none;
+}
+.card-header{
+    font-size: 20px!important;
+}
+.card-body p{
+    color: #ffff!important;
+}
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
